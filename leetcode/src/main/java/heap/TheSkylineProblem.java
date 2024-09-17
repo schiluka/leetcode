@@ -12,7 +12,7 @@ import java.util.*;
  *
  * <p>
  *
- * <p>See below link for image. https://leetcode.com/problems/the-skyline-problem/description/
+ * <p>See below link for image. https://leetcode.com/the-skyline-problem/description/
  *
  * <p>
  *

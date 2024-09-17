@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    //id 'com.github.sherter.google-java-format' version '0.8'
+}
+
+/*googleJavaFormat {
+    toolVersion = "1.1"
+}
+
+dependencies {
+    compile 'com.google.googlejavaformat:google-java-format:1.15.0'
+}
+*/
+repositories {
+    jcenter()  // or mavenCentral()
+}

@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * Created by gouthamvidyapradhan on 11/04/2017. TinyURL is a URL shortening service where you enter
- * a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as
+ * a URL such as https://leetcode.com/design-tinyurl and it returns a short URL such as
  * http://tinyurl.com/4e9iAk.
  *
  * <p>Design the encode and decode methods for the TinyURL service. There is no restriction on how
@@ -24,7 +24,7 @@ public class EncodeAndDecodeTinyURL {
    */
   public static void main(String[] args) throws Exception {
     EncodeAndDecodeTinyURL encoder = new EncodeAndDecodeTinyURL();
-    String shorterUrl = encoder.encode("https://leetcode.com/problems/design-tinyurl");
+    String shorterUrl = encoder.encode("https://leetcode.com/design-tinyurl");
     System.out.println(encoder.decode(shorterUrl));
   }
 

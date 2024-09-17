@@ -26,7 +26,7 @@ import java.util.*;
 public class ArrayNesting {
   public static void main(String[] args) {
     int[] A = {5, 4, 0, 3, 1, 6, 2};
-    System.out.println(new ArrayNesting().arrayNesting(A));
+    System.out.println("=========" + new ArrayNesting().arrayNesting(A));
   }
 
   Set<Integer> done;
